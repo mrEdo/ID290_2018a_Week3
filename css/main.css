@@ -1,0 +1,47 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Trebuchet MS', futura, arial, sans-serif;
+	background-color: #CCC;
+}
+.box {
+	-webkit-transition: all .4s ease-out;
+	   -moz-transition: all .4s ease-out;
+	    -ms-transition: all .4s ease-out;
+	     -o-transition: all .4s ease-out;
+	        transition: all .4s ease-out;
+}
+
+#box1 {
+	background-image: url('../images/flakes-03.svg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 200vh;
+	width: 100vw;
+	position: fixed;
+	top: -100vh;
+}
+#box2 {
+	background-image: url('../images/flakes-01.svg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 200vh;
+	width: 100vw;
+	position: fixed;
+	top: -100vh;
+}
+#box3 {
+	background-image: url('../images/flakes-02.svg');
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 200vh;
+	width: 100vw;
+	position: fixed;
+	top: -100vh;
+}
+#scrollHolder {
+	height: 5000px;
+	width: 0px;
+	background-color: red;
+	opacity: 0;
+}
